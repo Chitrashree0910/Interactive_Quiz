@@ -1,7 +1,24 @@
 # Interactive JavaScript Quiz
-![Quiz Home Page](Project_images/home_page.png)
-![Quiz Quiz Page](Project_images/wrong_answer.png)
-![Quiz Final Score Display](Project_images/final_score_display.png)
+
+<table>
+  <tr>
+    <td align = "center">
+      <img src="Project_images/home_page.png" alt="Quiz Home Page" width="300">
+      <br>
+      <em>Quiz Home Page</em>
+    </td>
+    <td align="center">
+      <img src="Project_images/wrong_answer.png" alt="Quiz Quiz Page" width="300">
+      <br>
+      <em>Quiz in Progress</em>
+    </td>
+    <td align="center">
+      <img src="Project_images/final_score_display.png" alt="Quiz Final Score Display" width="300">
+      <br>
+      <em>Final Score</em>
+    </td>
+  </tr>
+</table>
 
 ## Project Overview
 
