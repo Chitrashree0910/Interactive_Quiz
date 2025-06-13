@@ -1,0 +1,145 @@
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+#start-screen {
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+}
+
+#start-screen h2 {
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.quiz-category-button {
+  display: block;
+  width: 60%;
+  padding: 12px 24px;
+  margin: 14px auto;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.quiz-category-button:hover {
+  background-color: #0056b3;
+}
+
+#quiz-container,
+#reset-button,
+#score-display {
+  display: none;
+}
+
+
+#quiz-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+#question-progress {
+  font-size: 0.8em;
+  color: #666;
+  margin-bottom: 14px;
+}
+
+#question-text {
+  font-size: 1.4em;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+#options-container {
+  margin-bottom: 20px;
+}
+
+.option-button {
+  display: block;
+  width: 80%;
+  padding: 12px 14px;
+  margin: 10px auto;
+  border: 1px solid #f0f0f0;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  color: #333;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.option-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.option-button[style *= "lightgreen"] {
+  background-color: lightgreen !important;
+  border-color: green !important;
+  color: black !important;
+}
+
+.option-button[style *= "lightcoral"] {
+  background-color: lightcoral !important;
+  border-color: red !important;
+  color: black !important;
+}
+
+#next-button,
+#reset-button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+#next-button {
+  display: none;
+}
+
+#reset-button {
+  display: block;
+  width: 150px;
+  margin: 24px auto;
+}
+
+#score-display {
+  margin-top: 18px;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* display: none; */
+}
+
+#reset-button {
+  display: none;
+}
+
+#timer-display {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #e44d26;
+  margin-bottom: 10px;
+  display: none;
+}

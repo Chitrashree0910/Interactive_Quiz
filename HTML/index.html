@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+
+    <link rel="stylesheet" href="..\CSS\style.css">
+
+  </head>
+  <body>
+    <h1>Welcome to the Quiz!</h1> 
+
+    <div id="start-screen">
+      <h2>Select a Quiz Category:</h2>
+      <button id="start-geo-quiz" class="quiz-category-button">Geography</button>
+      <button id="start-sci-quiz" class="quiz-category-button">Science</button>
+      <button id="start-history-quiz" class="quiz-category-button">History</button>
+      <button id="start-math-quiz" class="quiz-category-button">Mathematics</button>
+    </div>
+
+    <div id="quiz-container"> <!--main container-->
+      <p id="question-progress"></p>
+      <div id="timer-display">Time Left: <span id="time"></span> seconds</div>
+      <h2 id="question-text"></h2>
+
+      <div id="options-container"></div>
+
+      <button id="next-button">Next Question</button>
+    </div>
+
+    <div id="score-display"></div>
+
+    <button id="reset-button">Reset Quiz</button>
+
+    <script src="..\JavaScript\quizData.js"></script>
+    <script src="..\JavaScript\script.js"></script>
+  </body>
+</html>
