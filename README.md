@@ -15,7 +15,6 @@ This is a interactive web-based quiz application built entirely with HTML, CSS, 
 * **Interactive Timer:** Each question has a time limit, adding an element of challenge. The quiz automatically proceeds if time runs out.
 * **Instant Feedback:** Users receive immediate visual feedback (green for correct, red for incorrect) on their selected answer.
 * **Score Tracking:** Tracks correct and incorrect answers throughout the quiz, displaying the final score at the end.
-* **Responsive Design:** (If your CSS handles different screen sizes well) The quiz is designed to be visually appealing and functional on various devices.
 * **Clear Reset Functionality:** Easily restart the quiz or return to the category selection screen.
 * **Separation of Concerns:** Quiz data is stored in a separate JavaScript file for better organization and scalability.
 
